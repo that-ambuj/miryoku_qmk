@@ -10,6 +10,32 @@
 
 - The Miryoku QMK development branch readme is at https://github.com/manna-harbour/miryoku_qmk/tree/miryoku/users/manna-harbour_miryoku
 
+** Custom Configuration (Added by Ambuj)
+
+This repository has been customized with the following modifications:
+
+*** Ferris Sweep Configuration
+- *Home Row Modifiers*: Changed to CTL-ALT-GUI-SFT (left) and SFT-GUI-ALT-CTL (right)
+- *Thumb Key Order*: Tab, Enter, Space, Backspace
+- *Layout*: QWERTY alphas with VI navigation (HJKL) and Mac clipboard shortcuts
+
+*** Flash Commands
+For Ferris Sweep with the above customizations:
+
+#+BEGIN_SRC bash
+# Left half
+qmk flash -kb ferris/sweep -km manna-harbour_miryoku -bl avrdude-split-left
+
+# Right half  
+qmk flash -kb ferris/sweep -km manna-harbour_miryoku -bl avrdude-split-right
+#+END_SRC
+
+Configuration is stored in =/layouts/community/split_3x5_2/manna-harbour_miryoku/rules.mk=:
+- =MIRYOKU_ALPHAS=QWERTY=
+- =MIRYOKU_NAV=VI=
+- =MIRYOKU_CLIPBOARD=MAC=
+- =EE_HANDS=yes=
+
 
 ** 
 

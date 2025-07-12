@@ -1,0 +1,161 @@
+FERRIS SWEEP MIRYOKU LAYOUT - CUSTOM CONFIGURATION
+=================================================
+
+Author: Ambuj
+Configuration: QWERTY alphas, VI navigation, Mac clipboard, CTL-ALT-GUI-SFT home row mods
+Thumb order: Tab-Enter-Space-Backspace
+
+BASE LAYER (QWERTY)
+===================
+┌──────┬──────┬──────┬──────┬──────┐     ┌──────┬──────┬──────┬──────┬──────┐
+│  Q   │  W   │  E   │  R   │  T   │     │  Y   │  U   │  I   │  O   │  P   │
+├──────┼──────┼──────┼──────┼──────┤     ├──────┼──────┼──────┼──────┼──────┤
+│CTL A │ALT S │GUI D │SFT F │  G   │     │  H   │SFT J │GUI K │ALT L │CTL ' │
+├──────┼──────┼──────┼──────┼──────┤     ├──────┼──────┼──────┼──────┼──────┤
+│BTN Z │AGR X │  C   │  V   │  B   │     │  N   │  M   │  ,   │AGR . │BTN / │
+└──────┴──────┴──────┼──────┼──────┤     ├──────┼──────┼──────┴──────┴──────┘
+                     │NAV   │MSE   │     │SYM   │NUM   │
+                     │TAB   │ENT   │     │SPC   │BSPC  │
+                     └──────┴──────┘     └──────┴──────┘
+
+NAV LAYER (VI style with H-J-K-L arrows)
+=========================================
+┌──────┬──────┬──────┬──────┬──────┐     ┌──────┬──────┬──────┬──────┬──────┐
+│RESET │ TAP  │EXTRA │BASE  │  --  │     │ REDO │PASTE │COPY  │ CUT  │UNDO  │
+│2xTAP │LAYER │LAYER │LAYER │      │     │⌘⇧Z   │⌘V    │⌘C    │⌘X    │⌘Z    │
+├──────┼──────┼──────┼──────┼──────┤     ├──────┼──────┼──────┼──────┼──────┤
+│ CTL  │ ALT  │ GUI  │SHIFT │  --  │     │  H   │  J   │  K   │  L   │CPSLK │
+│      │      │      │      │      │     │ ←    │  ↓   │  ↑   │  →   │      │
+├──────┼──────┼──────┼──────┼──────┤     ├──────┼──────┼──────┼──────┼──────┤
+│  --  │ALGR  │ NUM  │ NAV  │  --  │     │HOME  │PGDN  │PGUP  │ END  │ INS  │
+│      │      │LAYER │LAYER │      │     │      │      │      │      │      │
+└──────┴──────┴──────┼──────┼──────┤     ├──────┼──────┼──────┴──────┴──────┘
+                     │ --- │  --  │     │ ENT  │BSPC  │
+                     │HELD │      │     │      │      │
+                     └──────┴──────┘     └──────┴──────┘
+
+MOUSE LAYER (VI style with H-J-K-L mouse movement)
+===================================================
+┌──────┬──────┬──────┬──────┬──────┐     ┌──────┬──────┬──────┬──────┬──────┐
+│RESET │ TAP  │EXTRA │BASE  │  --  │     │ REDO │PASTE │COPY  │ CUT  │UNDO  │
+│2xTAP │LAYER │LAYER │LAYER │      │     │⌘⇧Z   │⌘V    │⌘C    │⌘X    │⌘Z    │
+├──────┼──────┼──────┼──────┼──────┤     ├──────┼──────┼──────┼──────┼──────┤
+│ CTL  │ ALT  │ GUI  │SHIFT │  --  │     │ MS←  │ MS↓  │ MS↑  │ MS→  │  --  │
+│      │      │      │      │      │     │  H   │  J   │  K   │  L   │      │
+├──────┼──────┼──────┼──────┼──────┤     ├──────┼──────┼──────┼──────┼──────┤
+│  --  │ALGR  │ SYM  │ MSE  │  --  │     │WHE←  │WHE↓  │WHE↑  │WHE→  │  --  │
+│      │      │LAYER │LAYER │      │     │  H   │  J   │  K   │  L   │      │
+└──────┴──────┴──────┼──────┼──────┤     ├──────┼──────┼──────┴──────┴──────┘
+                     │TAB   │ --- │     │BTN2  │BTN1  │
+                     │      │HELD │     │RIGHT │LEFT  │
+                     └──────┴──────┘     └──────┴──────┘
+
+SYMBOL LAYER
+============
+┌──────┬──────┬──────┬──────┬──────┐     ┌──────┬──────┬──────┬──────┬──────┐
+│  {   │  &   │  *   │  (   │  }   │     │  --  │ TAP  │EXTRA │BASE  │RESET │
+│      │      │      │      │      │     │      │LAYER │LAYER │LAYER │2xTAP │
+├──────┼──────┼──────┼──────┼──────┤     ├──────┼──────┼──────┼──────┼──────┤
+│  :   │  $   │  %   │  ^   │  +   │     │  --  │SHIFT │ GUI  │ ALT  │ CTL  │
+│      │      │      │      │      │     │      │      │      │      │      │
+├──────┼──────┼──────┼──────┼──────┤     ├──────┼──────┼──────┼──────┼──────┤
+│  ~   │  !   │  @   │  #   │  |   │     │  --  │ SYM  │ MSE  │ALGR  │  --  │
+│      │      │      │      │      │     │      │LAYER │LAYER │      │      │
+└──────┴──────┴──────┼──────┼──────┤     ├──────┼──────┼──────┴──────┴──────┘
+                     │  )   │  _   │     │ --- │  _   │
+                     │      │      │     │HELD │      │
+                     └──────┴──────┘     └──────┴──────┘
+
+NUMBER LAYER
+============
+┌──────┬──────┬──────┬──────┬──────┐     ┌──────┬──────┬──────┬──────┬──────┐
+│  [   │  7   │  8   │  9   │  ]   │     │  --  │ TAP  │EXTRA │BASE  │RESET │
+│      │      │      │      │      │     │      │LAYER │LAYER │LAYER │2xTAP │
+├──────┼──────┼──────┼──────┼──────┤     ├──────┼──────┼──────┼──────┼──────┤
+│  ;   │  4   │  5   │  6   │  =   │     │  --  │SHIFT │ GUI  │ ALT  │ CTL  │
+│      │      │      │      │      │     │      │      │      │      │      │
+├──────┼──────┼──────┼──────┼──────┤     ├──────┼──────┼──────┼──────┼──────┤
+│  `   │  1   │  2   │  3   │  \   │     │  --  │ NUM  │ NAV  │ALGR  │  --  │
+│      │      │      │      │      │     │      │LAYER │LAYER │      │      │
+└──────┴──────┴──────┼──────┼──────┤     ├──────┼──────┼──────┴──────┴──────┘
+                     │  0   │  -   │     │  --  │ --- │
+                     │      │      │     │      │HELD │
+                     └──────┴──────┘     └──────┴──────┘
+
+MEDIA LAYER (VI style directional media controls)
+=================================================
+┌──────┬──────┬──────┬──────┬──────┐     ┌──────┬──────┬──────┬──────┬──────┐
+│RESET │ TAP  │EXTRA │BASE  │  --  │     │RGB_MD│RGB_HU│RGB_SA│RGB_VA│RGB_TG│
+│2xTAP │LAYER │LAYER │LAYER │      │     │      │      │      │      │      │
+├──────┼──────┼──────┼──────┼──────┤     ├──────┼──────┼──────┼──────┼──────┤
+│ CTL  │ ALT  │ GUI  │SHIFT │  --  │     │PREV  │VOL-  │VOL+  │NEXT  │  --  │
+│      │      │      │      │      │     │      │      │      │      │      │
+├──────┼──────┼──────┼──────┼──────┤     ├──────┼──────┼──────┼──────┼──────┤
+│  --  │ALGR  │ FUN  │MEDIA │  --  │     │  --  │  --  │  --  │  --  │  --  │
+│      │      │LAYER │LAYER │      │     │      │      │      │      │      │
+└──────┴──────┴──────┼──────┼──────┤     ├──────┼──────┼──────┴──────┴──────┘
+                     │ --- │  --  │     │STOP  │PLAY  │
+                     │HELD │      │     │      │PAUSE │
+                     └──────┴──────┘     └──────┴──────┘
+
+FUNCTION LAYER
+==============
+┌──────┬──────┬──────┬──────┬──────┐     ┌──────┬──────┬──────┬──────┬──────┐
+│ F12  │ F7   │ F8   │ F9   │PRTSC │     │  --  │ TAP  │EXTRA │BASE  │RESET │
+│      │      │      │      │      │     │      │LAYER │LAYER │LAYER │2xTAP │
+├──────┼──────┼──────┼──────┼──────┤     ├──────┼──────┼──────┼──────┼──────┤
+│ F11  │ F4   │ F5   │ F6   │SCRLK │     │  --  │SHIFT │ GUI  │ ALT  │ CTL  │
+│      │      │      │      │      │     │      │      │      │      │      │
+├──────┼──────┼──────┼──────┼──────┤     ├──────┼──────┼──────┼──────┼──────┤
+│ F10  │ F1   │ F2   │ F3   │PAUSE │     │  --  │ FUN  │MEDIA │ALGR  │  --  │
+│      │      │      │      │      │     │      │LAYER │LAYER │      │      │
+└──────┴──────┴──────┼──────┼──────┤     ├──────┼──────┼──────┴──────┴──────┘
+                     │ APP  │SPC   │     │TAB   │ --- │
+                     │MENU  │      │     │      │HELD │
+                     └──────┴──────┘     └──────┴──────┘
+
+BUTTON LAYER (Clipboard functions)
+===================================
+┌──────┬──────┬──────┬──────┬──────┐     ┌──────┬──────┬──────┬──────┬──────┐
+│UNDO  │ CUT  │COPY  │PASTE │REDO  │     │REDO  │PASTE │COPY  │ CUT  │UNDO  │
+│⌘Z    │⌘X    │⌘C    │⌘V    │⌘⇧Z   │     │⌘⇧Z   │⌘V    │⌘C    │⌘X    │⌘Z    │
+├──────┼──────┼──────┼──────┼──────┤     ├──────┼──────┼──────┼──────┼──────┤
+│UNDO  │ CUT  │COPY  │PASTE │REDO  │     │REDO  │PASTE │COPY  │ CUT  │UNDO  │
+│⌘Z    │⌘X    │⌘C    │⌘V    │⌘⇧Z   │     │⌘⇧Z   │⌘V    │⌘C    │⌘X    │⌘Z    │
+├──────┼──────┼──────┼──────┼──────┤     ├──────┼──────┼──────┼──────┼──────┤
+│UNDO  │ CUT  │COPY  │PASTE │REDO  │     │REDO  │PASTE │COPY  │ CUT  │UNDO  │
+│⌘Z    │⌘X    │⌘C    │⌘V    │⌘⇧Z   │     │⌘⇧Z   │⌘V    │⌘C    │⌘X    │⌘Z    │
+└──────┴──────┴──────┼──────┼──────┤     ├──────┼──────┼──────┴──────┴──────┘
+                     │UNDO  │ CUT  │     │COPY  │PASTE │
+                     │⌘Z    │⌘X    │     │⌘C    │⌘V    │
+                     └──────┴──────┘     └──────┴──────┘
+
+KEY COMBINATIONS & ACCESS
+=========================
+
+Layer Access:
+- NAV layer: Hold left thumb (Tab)
+- MOUSE layer: Hold right thumb (Enter)
+- SYMBOL layer: Hold right thumb (Space)
+- NUMBER layer: Hold right thumb (Backspace)
+- MEDIA layer: Hold both left thumbs (Tab + Enter)
+- FUNCTION layer: Hold both right thumbs (Space + Backspace)
+- BUTTON layer: Hold corner keys (Z or /)
+
+Thumb Combos:
+- Left combo (Tab + Enter): ESC / MEDIA layer
+- Right combo (Space + Backspace): DEL / FUN layer
+- NAV layer combo (Tab + Backspace): Delete when in NAV layer
+- FUN layer combo (Tab + Enter): APP menu when in FUN layer
+
+Special Keys:
+- RESET: Double-tap top-left key (Q position) in any layer
+- BTN = Button layer access (clipboard functions)
+- AGR = AltGr modifier for special characters
+- CTL/ALT/GUI/SFT = Home row modifiers
+
+Flash Commands:
+- Left half:  qmk flash -kb ferris/sweep -km manna-harbour_miryoku -bl avrdude-split-left
+- Right half: qmk flash -kb ferris/sweep -km manna-harbour_miryoku -bl avrdude-split-right
+
+Configuration stored in: /layouts/community/split_3x5_2/manna-harbour_miryoku/rules.mk
