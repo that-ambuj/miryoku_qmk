@@ -58,6 +58,8 @@ const key_override_t **key_overrides = (const key_override_t *[]){
     NULL
 };
 
+// combos
+const uint16_t PROGMEM esc_combo_base_left[] = {KC_S, KC_D, KC_F, COMBO_END};
 
 // thumb combos
 
@@ -74,9 +76,10 @@ const uint16_t PROGMEM thumbcombos_sym[] = {KC_UNDS, KC_LPRN, COMBO_END};
 const uint16_t PROGMEM thumbcombos_sym[] = {KC_RPRN, KC_UNDS, COMBO_END};
   #endif
 const uint16_t PROGMEM thumbcombos_fun[] = {KC_TAB, KC_ENT, COMBO_END};
-combo_t key_combos[COMBO_COUNT] = {
+combo_t key_combos[COMBO_COUNT + 1] = {
   COMBO(thumbcombos_base_right, LT(U_FUN, KC_DEL)),
   COMBO(thumbcombos_base_left, LT(U_MEDIA, KC_ESC)),
+  COMBO(esc_combo_base_left, KC_ESC),
   COMBO(thumbcombos_nav, KC_DEL),
   COMBO(thumbcombos_mouse, KC_BTN3),
   COMBO(thumbcombos_media, KC_MUTE),
