@@ -59,7 +59,7 @@ const key_override_t **key_overrides = (const key_override_t *[]){
 };
 
 // combos
-const uint16_t PROGMEM esc_combo_base_left[] = {KC_S, KC_D, KC_F, COMBO_END};
+const uint16_t PROGMEM esc_combo_base_left[] = {LALT_T(KC_S), LCTL_T(KC_D), LSFT_T(KC_F), COMBO_END};
 
 // thumb combos
 
