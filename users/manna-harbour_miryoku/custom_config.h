@@ -5,12 +5,12 @@
 
 #pragma once
 
-#define TAPPING_TERM 170
-#define QUICK_TAP_TERM TAPPING_TERM
+#define TAPPING_TERM 160
 #define PERMISSIVE_HOLD_PER_KEY
 
 // Neutralize long hold of Alt and GUI keys
 #define DUMMY_MOD_NEUTRALIZER_KEYCODE KC_RIGHT_CTRL
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
 
 // experimental
 #define FLOW_TAP_TERM 150
